@@ -1,3 +1,43 @@
-.footer-nav {
-    border: 1px;
+.footer-nav{
+    background-color: rgb(0, 0, 0);
+    color: rgb(196, 196, 196);
+}
+
+.footer-menu-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.footer-menu{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.footer-menu h4{
+    font-size: 20px;
+}
+
+.footer-link{
+    padding: 5px;
+}
+
+.footer-info{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer-info ul{
+    display: flex;
+    gap: 40px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
