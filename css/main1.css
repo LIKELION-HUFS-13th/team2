@@ -1,0 +1,7 @@
+.page1{
+ box-sizing: border-box;
+ width: 98%;
+ padding: 300px;
+ margin: 20px auto;
+ background-color: aqua;
+}
