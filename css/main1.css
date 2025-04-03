@@ -30,4 +30,27 @@
   margin: 0 auto;
 
   margin-top: -40px;
-}  
+} 
+
+.page2{
+  box-sizing: border-box;
+  width: 98%;
+  height: 650px;
+  margin: 20px auto;
+  border: 10px double black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.note{
+  width: 400px;
+  height: 500px;
+  background-image: url("../assets/page2_note.jpg");
+  background-size: cover;
+  margin: 50px 50px;
+  text-align: center;
+  align-content: center;
+  font-size: large;
+  font-style: italic;
+  font-weight: 10px;
+}
