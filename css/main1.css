@@ -21,7 +21,6 @@
 .page1-concept{
   -webkit-text-fill-color: whitesmoke;
   text-align: center;
-  background-color: black;
   padding: 20px 40px;
   border-radius: 15px;
   width: 500px;
@@ -40,17 +39,47 @@
   border: 10px double black;
   display: flex;
   justify-content: space-between;
+  background-color: white;
 }
-
 .note{
   width: 400px;
   height: 500px;
   background-image: url("../assets/page2_note.jpg");
-  background-size: cover;
+  background-size: contain;
   margin: 50px 50px;
   text-align: center;
   align-content: center;
   font-size: large;
   font-style: italic;
-  font-weight: 10px;
+  font-weight: bolder;
+}
+
+.page3{
+  width: 98%;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+.page3-photo{
+  width: 650px;
+  height: 600px;
+  background-image: url("../assets/page3_photo.jpg");
+  background-size: cover;
+}
+.page3-calendar{
+  width: 320px;
+  height: 295px;
+  background-image: url("../assets/page3_calendar4.jpg");
+  background-size: contain;
+  margin-top: 30px;
+
+}
+
+.page3-description p{
+  box-sizing: content-box;
+  background-color: blanchedalmond;
+  
+  margin-top: 500px;
+
+
 }
