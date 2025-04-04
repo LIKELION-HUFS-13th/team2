@@ -59,12 +59,22 @@
   height: 700px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  position: relative;
+  border: 7px solid black;
+  box-sizing: border-box;
+  margin: 20px auto;
+  border-radius: 10px;
 }
 .page3-photo{
   width: 650px;
   height: 600px;
   background-image: url("../assets/page3_photo.jpg");
   background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 45px;
+  left: 30px;
 }
 .page3-calendar{
   width: 320px;
@@ -72,14 +82,32 @@
   background-image: url("../assets/page3_calendar4.jpg");
   background-size: contain;
   margin-top: 30px;
+  position: relative;
+  top: -180px;
+  left: 770px;
 
 }
 
 .page3-description p{
   box-sizing: content-box;
-  background-color: blanchedalmond;
-  
-  margin-top: 500px;
+  padding: 30px 60px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-text-fill-color: aliceblue;
+  font-weight: bold;
+  position: relative;
+  top: 150px;
+  left: 28px;
+}
 
+.arrow{
+  position: absolute;
+  width: 299px;
+  height: 300px;
+  background-image: url("../assets/page3_red_arrow.png");
+  background-size: cover;
+  transform: rotate(20deg) scaleY(-1);
+  top: 50px;
+  right: 530px;
 
 }
