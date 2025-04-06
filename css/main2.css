@@ -1,134 +1,142 @@
 .page4 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 30px;
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    margin: 40px 0;
-    position: relative;
-    min-height: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  margin: 40px 0;
+  position: relative;
+  min-height: 150px;
 }
 
 .page4-description {
-    width: calc(100% - 60px);
-    font-size: 18px;
-    line-height: 1.6;
-    color: #333;
+  width: calc(100% - 60px);
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
 }
 
 .page4-likeButton {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: auto;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: auto;
 }
 
 .page4-likeButton .button button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    margin: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
 }
 
 .page4-likeButton .button button img {
-    width: 40px;
-    height: 40px;
-    display: block;
-    object-fit: contain;
+  width: 40px;
+  height: 40px;
+  display: block;
+  object-fit: contain;
 }
 
 .page4-likeButton .like p {
-    font-size: 16px;
-    font: Poppins;
-    color: #333;
-    margin-top: 4px;
-    text-align: right;
+  font-size: 16px;
+  font: Poppins;
+  color: #333;
+  margin-top: 4px;
+  text-align: right;
 }
 
 .page5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 30px;
-    border-radius: 10px;
-    margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 40px 0;
 }
 
 .page5-calendar img {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 8px;
-    margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .page5-description p {
-    font-size: 18px;
-    color: #333;
-    text-align: center;
-    font: Poppins;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  font: Poppins;
 }
 
 .page6 {
-    padding: 30px;
-    background-color: #f1f3f5;
-    border-radius: 10px;
-    margin: 40px 0;
-    position: relative;
+  padding: 30px;
+  background-color: #f1f3f5;
+  border-radius: 10px;
+  margin: 40px 0;
+  position: relative;
 }
 
 .page6-capsule {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 60px;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  position: relative;
 }
 
 .page6-capsule .capsule img {
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-    z-index: 2;
-    position: relative;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  z-index: 2;
+  position: relative;
 }
 
 .page6-iconBox {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  position: relative;
 }
 
 .page6-iconBox .icon {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .page6-iconBox .icon img {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .page6-iconBox .icon::before {
-    content: '';
-    position: absolute;
-    top: -60px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2px;
-    height: 60px;
-    background-color: #ccc;
-    z-index: 1;
-    opacity: 0.6;
+  content: '';
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 60px;
+  background-color: #ccc;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+.qr_po {
+  display: flex;
+  justify-content: center;
+}
+.qr {
+  width: 20%;
 }
